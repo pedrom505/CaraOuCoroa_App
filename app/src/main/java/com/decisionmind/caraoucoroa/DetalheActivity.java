@@ -36,9 +36,7 @@ public class DetalheActivity extends AppCompatActivity {
         voltar_ImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intencao = new Intent(DetalheActivity.this, MainActivity.class);
-                startActivity(intencao);
+                startActivity(new Intent(DetalheActivity.this, MainActivity.class));
             }
         });
 
